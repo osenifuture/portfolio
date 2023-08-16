@@ -2,12 +2,14 @@ import { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css"
 import Fade from "../slider/HomeSlider";
+import { Fragment } from "react";
 
 const Home = () => {
   useEffect(() => {
     Aos.init({ duration: 1000 });
   }, []);
   return (
+    <Fragment>
     <div id="home">
       <div className="home-container1">
         <div className="home-container2"></div>
@@ -18,9 +20,8 @@ const Home = () => {
         <Fade/>
         </div>
       </div>
-     
-       <div className="homeclient-con">
-        
+    </div>
+    <div className="homeclient-con">
         <div data-aos="fade-down"
      data-aos-easing="linear"
      data-aos-duration="1500" className="client-box">
@@ -74,7 +75,7 @@ const Home = () => {
         </div>
         
       </div> 
-    </div>
+    </Fragment>
   );
 };
 

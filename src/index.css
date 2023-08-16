@@ -156,21 +156,17 @@ svg text {
   justify-content: flex-start;
   align-items: flex-start;
   background-color: white;
-  flex-direction: column;
 }
 
 .home-container3{
-  width: 80%;
+  width: 100%;
   height: 700px;
   display: flex;
   align-items: flex-start;
   justify-content: center;
   background-color: #B5B9BA;
   -webkit-clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0% 100%, 16% 52%, 2% 0);
-clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0% 100%, 16% 52%, 2% 0);
-/* 
-  -webkit-clip-path: polygon(100% 1%, 100% 50%, 100% 99%, 0% 100%, 18% 50%, 0% 0%);
-  clip-path: polygon(100% 1%, 100% 50%, 100% 99%, 0% 100%, 18% 50%, 0% 0%); */
+  clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0% 100%, 16% 52%, 2% 0); 
 }
 
 .home-container3 > img{
@@ -185,6 +181,7 @@ clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0% 100%, 16% 52%, 2% 0);
   justify-content: center;
   align-items: center;
   position: absolute;
+  /* background-color: red;  */
 }
 
 .home-container2 > h1{
@@ -362,11 +359,6 @@ clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0% 100%, 16% 52%, 2% 0);
 }
 
 
-@media screen and (max-width:768px) {
-  .home-container1{
-    width: 100%;
-  }
-}
 
 
  .homeclient-con{
@@ -440,7 +432,7 @@ clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0% 100%, 16% 52%, 2% 0);
 
 .about-box1{
   width: 45%;
-  height:700px;
+  height:600px;
   display: flex;
   justify-content: center;
   align-items: center;
