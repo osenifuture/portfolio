@@ -524,18 +524,17 @@ svg text {
     display: flex;
     height: fit-content;
     flex-direction: column;
-    /* padding: 0px 10px; */
+    padding: 0px 10px;
   
   }
 
   .about-box1{
-    width: 100%;
+    width: 98%;
   }
   
   .about-box2{
     width: 100%;
-    padding-left: 8px;
-
+    padding: 0px 10px;
   }
 
   .address-box3{
@@ -563,122 +562,164 @@ svg text {
 
 
 
-
 #skill{
   width: 100%;
   height: 100vh;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
-  background-color: whitesmoke;
+  background-color: #19202B;
   margin: 20px 0px;
+  color: white;
+  flex-direction: column;
 }
+
 
 .skill-container{
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  padding: 20px 0px;
-  background-color: whitesmoke;
-}
-
-.skill-container > .skill-box{
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  margin-top:50px;
-}
-.skill-box > h4{
-  color: #B2B492;
-}
-
-.skill-box > h1{
-  font-size: 2.9rem;
-}
-
-.skill-card{
-  width: 80%;
-  height: fit-content;
+  width: 70%;
   display: grid;
   grid-template-columns: repeat(3, 2fr);
-  row-gap: 20px;
-  column-gap: 20px;
+  column-gap: 15px;
+  row-gap: 25px;
+  margin: 0px auto;
 }
 
-
-.skill-info {
+.skill-container > .skill-box1{
   width: 100%;
-  height: 350px;
-  background-color: white;
+  height: 150px;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 5px;
+  color: white;
+  gap: 10px;
   flex-direction: column;
-  gap: 15px;
-  padding-top: 10px;
-  box-shadow: 2px 2px 15px 2px lightgray;
-  transition: background-color 0.3s ease;
+  border-left: 1px solid  #E34E25;;
+  border-right: 1px solid  #E34E25;;
+  border-bottom: 4px solid  #E34E25;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
 
-.skill-info:hover {
-  background-color: #B2B492;
+.skill-container > .skill-box1 > img{
+  width: 70px;
+  height: 70px;
+}
+
+.skill-container > .skill-box2{
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: white;
+  gap: 10px;
+  flex-direction: column;
+  border-left: 1px solid  #0277BD;
+  border-right: 1px solid #0277BD;;
+  border-bottom: 4px solid #0277BD;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
 
-.skill-info:hover .display-on-hover {
-  display: block;
+.skill-container > .skill-box2 > img{
+  width: 70px;
+  height: 70px;
+}
+
+.skill-container > .skill-box3{
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: white;
+  gap: 10px;
+  flex-direction: column;
+  border-left: 1px solid  #FED602;
+  border-right: 1px solid #FED602;
+  border-bottom: 4px solid #FED602;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
 
-.display-on-hover {
-  display: none;
-  padding: 5px;
-  text-align: center;
-  transition: background-color 0.3s ease, color 0.3s ease;
+.skill-container > .skill-box3 > img{
+  width: 70px;
+  height: 70px;
 }
 
-.display-on-hover > p{
-  font-weight: bold;
+.skill-container > .skill-box4{
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  gap: 10px;
+  flex-direction: column;
+  border-left: 1px solid  #61DAFB;
+  border-right: 1px solid #61DAFB;
+  border-bottom: 4px solid #61DAFB;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
 
-.skill-info > img{
-  width: 50px;
-  height: 50px;
+.skill-container > .skill-box4 > img{
+  width: 70px;
+  height: 70px;
+}
+
+.skill-container > .skill-box5{
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  gap: 10px;
+  flex-direction: column;
+  border-left: 1px solid  #FBA40F;
+  border-right: 1px solid #FBA40F;
+  border-bottom: 4px solid #FBA40F;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.skill-container > .skill-box5 > img{
+  width: 70px;
+  height: 70px;
+}
+
+.skill-container > .skill-box6{
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  gap: 10px;
+  flex-direction: column;
+  border-left: 1px solid  #EEEEEE;
+  border-right: 1px solid #EEEEEE;
+  border-bottom: 4px solid #EEEEEE;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.skill-container > .skill-box6 > img{
+  width: 70px;
+  height: 70px;
 }
 
 @media screen and (max-width:650px) {
-  #skill {
-    height: fit-content;
-
-  }
-    .skill-container{
-      width: 100%;
-      flex-direction: column;
-    }  
-
-    .skill-card{
-      width: 98%;
-      display: grid;
-      grid-template-columns: repeat(1, 6fr);
-    }
-
-    .skill-info{
-      width: 96%;
-    }
-}
-
-@media screen and (max-width:768px) {
-  #skill{
+  .skill-container{
     width: 100%;
-    height: fit-content;
-  }
-  
+    display: grid;
+    padding: 0px 20px;
+    grid-template-columns: repeat(2, 3fr);
+  }  
 }
+  
+
 
 #service{
   width: 100%;
@@ -686,95 +727,59 @@ svg text {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color:white;
+  flex-direction: column;
   padding: 10px;
-
 }
 
 .service-container{
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  padding: 0px 170px;
-}
-
-
-.service-box1{
-  width: 60%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-
-}
-
-.service-box1 > h4{
-  margin-top: 40px;
-  color:#B2B492;
-}
-
-.service-box2{
-  width: 100%;
-  /* background-color: red; */
+  width: 70%;
   display: grid;
   grid-template-columns: repeat(3, 2fr);
-  margin-top: 30px;
-  
+  margin: 0px auto;
+  row-gap: 10px;
+  padding: 5px;
 }
 
-.servbox2-inner{
-  display: flex;
-  width: 100%;
-  justify-content: flex-start;
-  align-items: flex-start;
-
-}
-
-.service-inner{
-  width:100%;
+.service-box{
+  width: 95%;
   height: 200px;
-  background-color: white;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: flex-start;
+  background-color: white;
+  position: relative;
+  padding:0px 5px 0px 20px;
+  margin: 25px 0px;
   flex-direction: column;
-  /* padding-left: 20px; */
-  padding: 0px 10px;
-  box-shadow: 0px 0px 20px 1px lightgray;
-  margin:30px 10px;
+  border-radius: 5px;
+  gap: 15px;
+  box-shadow: 0px 0px 20px 0px lightgray;
 }
-
 
 .service-circle{
-  width: 110px;
+  width: 80px;
   height: 80px;
-  border-radius: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #B2B492;
-  transform:  translateX(-310%);
-  margin-bottom: 40px;
-} 
+  border-radius: 100%;
+  background-color:  #B2B492;
+  position: absolute;
+  top: -20%;
+}
 
 .service-circle > .fa-solid{
-color: white;
-font-size: 40px;
+  color: white;
+  font-size: 35px;
 }
 
-.service-inner > h3{
-  margin-top: 90px;
-  text-align: left;
+#service > h1{
+  margin: 30px 0px;
 }
 
-.service-inner > p{
-  line-height: 1.6;
-  color: grey;
+#service > h4{
+    color: #B2B492 ;
 }
-
-
 
 @media screen and (max-width:650px) {
   #service{
@@ -782,56 +787,23 @@ font-size: 40px;
     height: fit-content;
   }
 
-  .service-container{
-    width: 100%;
-    padding: 0px 10px;
-  }
-
-  .service-box1{
-    width: 100%;
-  }
-
-  .service-box1 > h1{
-    font-size: 0.9rem;
-  }
-  
-
-  .service-box2{
-    width:100%;
-    display: flex;
-    flex-direction: column;
-  }  
-
-  .servbox2-inner{
-    min-width: 140%;
-  }
-
-  .service-inner{
-    width: 100%;
-    margin: 20px 0px;
-  }
-
-  .service-circle{
-    transform: translateX(-280%);
-  }
-
-} 
-
-@media screen and (max-width:768px) {
-  #service{
-    height: fit-content;
+  #service > h1{
+    font-size: 1.0rem;
   }
   .service-container{
     width: 100%;
-    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(1, 6fr);
   }
-  .service-box2{
-    width: 90%;
-    display: flex;
-    flex-direction: column;
+
+  .service-box{
+    width: 100%;
   }
   
 }
+
+
+
 
 
 #portfolio{
@@ -850,6 +822,7 @@ font-size: 40px;
   justify-content: center;
   align-items: center;
 }
+
 
 .project-container{
   width: 90%;

@@ -12,17 +12,17 @@ const About = () => {
       <div className="about-container">
         <div  data-aos="fade-down"
      data-aos-easing="linear"
-     data-aos-duration="1500" className="about-box1"></div>
+     data-aos-duration="1000" className="about-box1"></div>
         <div  className="about-box2">
           <h4 data-aos="fade-down"
      data-aos-easing="linear"
-     data-aos-duration="1500">MY INTRO</h4>
+     data-aos-duration="1000">MY INTRO</h4>
           <h1 data-aos="fade-down"
      data-aos-easing="linear"
-     data-aos-duration="1500">About Me</h1>
+     data-aos-duration="1000">About Me</h1>
           <p data-aos="fade-down"
      data-aos-easing="linear"
-     data-aos-duration="1500">
+     data-aos-duration="1000">
             Passionate front-end developer crafting immersive web experiences
             through clean code and creative design. Dedicated to blending
             aesthetics with functionality to deliver user-friendly interfaces.
@@ -31,7 +31,7 @@ const About = () => {
           </p>
         <div data-aos="fade-down"
      data-aos-easing="linear"
-     data-aos-duration="1500" className="address-box3">
+     data-aos-duration="1000" className="address-box3">
             <h3>Name: <span>Oseni Wasiu Adebayo</span></h3>
             <h3>Address: <span>40, Folawiyo Bankole Kilo Surulere Lagos.</span></h3>
             <h3>Email: <span>adebayomyhope@gmail.com</span></h3>
@@ -39,7 +39,7 @@ const About = () => {
         </div>
         <div data-aos="fade-down"
      data-aos-easing="linear"
-     data-aos-duration="1500" className="address-box4">
+     data-aos-duration="1000" className="address-box4">
             <div className="box4-inner">
                 <div className="hobby-box"></div>
                 <div className="hobby-circle">
