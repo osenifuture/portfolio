@@ -560,6 +560,18 @@ svg text {
   }
 }
 
+@media screen and (max-width:768px) {
+  .about-box2{
+    padding-left: 10px;
+  }
+  .address-box4{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+  }
+  
+}
+
 
 
 #skill{
@@ -793,10 +805,18 @@ svg text {
   .service-container{
     width: 100%;
     display: grid;
+    padding: 0px 15px;
     grid-template-columns: repeat(1, 6fr);
   }
 
   .service-box{
+    width: 100%;
+  }
+  
+}
+
+@media screen and (max-width:768px) {
+  .service-container{
     width: 100%;
   }
   
