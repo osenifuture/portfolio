@@ -1,5 +1,4 @@
 import Form from "./Form";
-import { Link } from "react-scroll";
 import { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css"
@@ -57,25 +56,21 @@ const Contact = () => {
             <div data-aos="fade-down"
      data-aos-easing="linear"
      data-aos-duration="1500" className="contact-social">
-              <Link className="social-link">
+              <a href="https://web.facebook.com/profile.php?id=100002423614028"  className="social-link">
                 <i className="fa-brands fa-facebook"></i>
-              </Link>
-              <Link
-                to="https://wa.me/08062142972"
-                className="social-link"
-                target="blank"
-              >
-                <i class="fa-brands fa-whatsapp"></i>
-              </Link>
-              <Link className="social-link">
+              </a>
+              <a href="https://wa.me/08062142972"className="social-link" target="blank" >
+                <i className="fa-brands fa-whatsapp"></i>
+              </a>
+              <a href="https://twitter.com/adebayomyhope"  className="social-link">
                 <i className="fa-brands fa-twitter"></i>
-              </Link>
-              <Link className="social-link">
+              </a>
+              <a href='https://www.linkedin.com/in/oseni-wasiu-b787a9250/' className="social-link">
                 <i className="fa-brands fa-linkedin"></i>
-              </Link>
-              <Link className="social-link">
+              </a>
+              <a href='https://github.com/osenifuture/' className="social-link">
                 <i className="fa-brands fa-github"></i>
-              </Link>
+              </a>
            
             </div>
           </div>

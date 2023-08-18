@@ -22,8 +22,8 @@ export default class Fade extends Component {
           
           <Slider {...settings} className="home-slide">
             <div className="home-slider">
-        <h4>HELLO!, THIS IS WASIU </h4>
-            <h1>CREATIVE <span>SOFTWARE ENGINEER</span></h1>
+        <h4><span>HEL</span>LO!, THIS IS WASIU </h4>
+            <h1><span>CR</span>EATIVE <span>SOFTWARE ENGINEER</span></h1>
         <div className="home-button">
           <Link to="contact" className="button-link">
             <button className="button-1">Hire me</button>
@@ -35,14 +35,14 @@ export default class Fade extends Component {
             </div>
             
             <div className="home-slider">
-            <h4>WEB DESIGN AND DEVELOPMENT</h4>
-        <h1>Hi, I am <span>Wasiu</span>, this is my favo<span>urite work</span> </h1>
+            <h4><span>WE</span>B DESIGN AND DEVELOPMENT</h4>
+        <h1><span>Hi</span>, I am <span>Wasiu</span>, <span>th</span>is is my <span>fa</span>vo<span>urite work</span> </h1>
         <div className="home-button">
           <Link to="contact" className="button-link">
-            <button className="button-1">Hire me</button>
+            <button className="button-2">DOWNLOAD CV</button>
           </Link>
           <Link to="contact" className="button-link">
-            <button className="button-2">DOWNLOAD CV</button>
+            <button className="button-1">Hire me</button>
           </Link>
         </div>
             </div>
