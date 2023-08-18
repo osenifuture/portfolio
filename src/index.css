@@ -1103,12 +1103,12 @@ svg text {
   .testimonial-container{
     width: 100%;
     height: fit-content;
+    padding: 0px 10px;
    
   }
 
   .slider-container{
     width: 100%;
-    padding: 0px 10px;
   }
 
   .slide{
