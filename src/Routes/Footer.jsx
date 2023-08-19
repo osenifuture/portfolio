@@ -1,4 +1,4 @@
-
+import { Link } from "react-scroll";
 import { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css"
@@ -10,6 +10,12 @@ const Footer = () => {
     return(
         <div id="footer">
             <div className="footer-mother">
+                <h3>Interested in working with me?</h3>
+                <p>OR</p>
+                <h4>Do you have project to bring to live?</h4>
+                <div className="talk-card">
+                <Link to="contact" className="talk"><p>Let's Talk</p></Link>
+                </div>
             <div  className="footer-box">
                 <a href="https://web.facebook.com/profile.php?id=100002423614028" className="foot-link" target="blank"><i className="fa-brands fa-facebook"></i></a>
                 <a href='https://wa.me/08062142972' className="foot-link" target="blank"><i class="fa-brands fa-whatsapp"></i></a>

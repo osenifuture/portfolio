@@ -35,7 +35,7 @@ export default class Fade extends Component {
             </div>
             
             <div className="home-slider">
-            <h4><span> DESI</span>GN AND DEVELOPMENT</h4>
+            <h4><span>WEB DESI</span>GN AND DEVELOPMENT</h4>
         <h1><span>Hi I</span>,  am <span>Wasiu</span>, <span>th</span>is is my <span>favo</span>urite work </h1>
         <div className="home-button">
           <Link to="contact" className="button-link">
