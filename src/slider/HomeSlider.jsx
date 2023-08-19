@@ -22,7 +22,7 @@ export default class Fade extends Component {
           
           <Slider {...settings} className="home-slide">
             <div className="home-slider">
-        <h4><span>HELL</span>,O! THIS IS WASIU </h4>
+        <h4><span>HELLO!,</span> THIS IS WASIU </h4>
             <h1><span>CRE</span>ATIVE <span>SOFTWARE ENG</span>INEER</h1>
         <div className="home-button">
           <Link to="contact" className="button-link">
@@ -35,7 +35,7 @@ export default class Fade extends Component {
             </div>
             
             <div className="home-slider">
-            <h4><span>WE D</span> ESIGN AND DEVELOPMENT</h4>
+            <h4><span> DESI</span>GN AND DEVELOPMENT</h4>
         <h1><span>Hi I</span>,  am <span>Wasiu</span>, <span>th</span>is is my <span>favo</span>urite work </h1>
         <div className="home-button">
           <Link to="contact" className="button-link">
