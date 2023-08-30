@@ -97,7 +97,7 @@ code {
 
 @media screen and (max-width:768px) {
   .navbar-container{
-    width: 100%
+    width: 100%;
   }
   
 }
@@ -588,7 +588,8 @@ svg text {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #19202B;
+  /* background-color: #19202B; */
+  background-color:  #0B142C;
   margin: 20px 0px;
   color: white;
   flex-direction: column;
@@ -1224,7 +1225,6 @@ svg text {
 
 .form-container{
   width: 50%;
-  background-color:whitesmoke;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1410,7 +1410,9 @@ animation-timing-function: linear
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba(7, 6, 6, 0.792);
+  /* background-color: rgba(7, 6, 6, 0.792); */
+  /* background-color:  #19202B; */
+  background-color:  #0B142C;
   color: white;
   max-height: 300px;
 }
@@ -1479,7 +1481,7 @@ animation-timing-function: linear
 
 .talk-card > .talk{
   animation-name: hover;
-  padding: 10px 20px;
+  padding: 5px ;
   border: 1px solid white;
   position: relative;
   overflow: hidden;
@@ -1508,5 +1510,7 @@ animation-timing-function: linear
     width: 100%;
     padding: 15px 10px;
   }
+
+
 
 }

@@ -13,51 +13,46 @@ const Contact = () => {
       <div className="contact-mother">
       <div className="contact-container">
         <h3 data-aos="fade-down"
-     data-aos-easing="linear"
-     data-aos-duration="1500">CONTACT </h3>
-        <h1 data-aos="fade-down"
-     data-aos-easing="linear"
-     data-aos-duration="1500">Have a Project?</h1>
+     >CONTACT </h3>
+        <h1 data-aos="fade-up"
+     >Have a Project?</h1>
       </div>
       <div className="formaddress-container">
         <div className="form-container">
           <Form />
         </div>
         <div className="address-container">
-          <div data-aos="fade-down"
-     data-aos-easing="linear"
-     data-aos-duration="1500" className="address-box">
+          <div  data-aos="zoom-out-right"
+     className="address-box">
             <div className="contact-fontbox">
               <i class="fa-solid fa-location-dot"></i>
             </div>
             <p>40, Folawiyo Bankole Str Lagos</p>
           </div>
-          <div data-aos="fade-down"
-     data-aos-easing="linear"
-     data-aos-duration="1500" className="address-box">
+          <div  data-aos="zoom-out-left"
+      className="address-box">
             <div className="contact-fontbox">
               <i class="fa-solid fa-phone"></i>
             </div>
             <Link to="telto:" className="call-link"><p>+2348062142972</p></Link>
             
           </div>
-          <div data-aos="fade-down"
-     data-aos-easing="linear"
-     data-aos-duration="1500" className="address-box">
+          <div data-aos="zoom-out-down"
+       className="address-box">
             <div className="contact-fontbox">
               <i class="fa-solid fa-paper-plane"></i>
             </div>
             <p>adebayomyhope@gmail.com</p>
           </div>
           <div data-aos="fade-down"
-     data-aos-easing="linear"
-     data-aos-duration="1500" className="address-box">
+     
+      className="address-box">
             <div className="contact-fontbox">
               <i class="fa-solid fa-globe"></i>
             </div>
             <div data-aos="fade-down"
-     data-aos-easing="linear"
-     data-aos-duration="1500" className="contact-social">
+  
+     className="contact-social">
               <a href="https://web.facebook.com/profile.php?id=100002423614028"  className="social-link" target="blank">
                 <i className="fa-brands fa-facebook"></i>
               </a>

@@ -49,28 +49,22 @@ const Form = () => {
         <form onSubmit={handleSubmit}>
             {isLoading && (<Spinner/>)}
             <h2 data-aos="fade-down"
-     data-aos-easing="linear"
-     data-aos-duration="1500">Get in touch Today!</h2>
-            <div data-aos="fade-down"
-     data-aos-easing="linear"
-     data-aos-duration="1500" className="input-combine">
+      >Get in touch Today!</h2>
+            <div data-aos="fade-up"
+     className="input-combine">
             <input type="text" name="name" value={name} placeholder="Your NAME"  onChange={handleChange} required />
             <input type="email" name="email" value={email} placeholder="Your Email"  onChange={handleChange} required />
             </div>   
-            <input data-aos="fade-down"
-     data-aos-easing="linear"
-     data-aos-duration="1500" type="number" name="phone" value={phone} placeholder="Your Number"  onChange={handleChange} required />
-            <input data-aos="fade-down"
-     data-aos-easing="linear"
-     data-aos-duration="1500" type="text" name="subject" value={subject} placeholder="Subject"  onChange={handleChange} required />
-            <textarea data-aos="fade-down"
-     data-aos-easing="linear"
-     data-aos-duration="1500" name="message" value={message} placeholder="Message" onChange={handleChange} required cols="30" rows="10"></textarea>
+            <input data-aos="zoom-in"
+     type="number" name="phone" value={phone} placeholder="Your Number"  onChange={handleChange} required />
+            <input data-aos="zoom-in-up"
+    type="text" name="subject" value={subject} placeholder="Subject"  onChange={handleChange} required />
+            <textarea data-aos="zoom-in-right"
+      name="message" value={message} placeholder="Message" onChange={handleChange} required cols="30" rows="10"></textarea>
             {error && <p style={{color: 'red'}}>{error}</p>}
             {successMsg && <p style={{color: 'green'}}>{successMsg}</p>}
-            <div data-aos="fade-down"
-     data-aos-easing="linear"
-     data-aos-duration="1500" className="button-box">
+            <div data-aos="zoom-in-left"
+      className="button-box">
             <button type="submit">{isLoading ?  " SUMBMITTING....." : "Send Message"}</button>
             </div>
         </form>

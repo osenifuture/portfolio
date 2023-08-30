@@ -22,9 +22,8 @@ const Home = () => {
       </div>
     </div>
     <div className="homeclient-con">
-        <div data-aos="fade-down"
-     data-aos-easing="linear"
-     data-aos-duration="1500" className="client-box">
+        <div data-aos="zoom-in-right"
+      className="client-box">
           <div className="client-circle">
             <i class="fa-solid fa-briefcase"></i>
           </div>
@@ -36,8 +35,7 @@ const Home = () => {
         </div>
 
         <div data-aos="fade-down"
-     data-aos-easing="linear"
-     data-aos-duration="1500" className="client-box">
+        className="client-box">
           <div className="client-circle">
             <i class="fa-solid fa-person-circle-check"></i>
           </div>
@@ -48,9 +46,8 @@ const Home = () => {
           </div>
         </div>
 
-        <div data-aos="fade-down"
-     data-aos-easing="linear"
-     data-aos-duration="1500" className="client-box">
+        <div data-aos="fade-up"
+         className="client-box">
           <div className="client-circle">
             <i class="fa-solid fa-mug-hot"></i>
           </div>
@@ -61,9 +58,8 @@ const Home = () => {
           </div>
         </div>
 
-        <div data-aos="fade-down"
-     data-aos-easing="linear"
-     data-aos-duration="1500" className="client-box">
+        <div data-aos="zoom-in-left"
+       className="client-box">
           <div className="client-circle">
             <i class="fa-solid fa-calendar"></i>
           </div>

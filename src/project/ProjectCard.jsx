@@ -10,13 +10,11 @@ const ProjectCard = () => {
                 ProjectFile.map((project) => {
                     const {id, imageUrl, title} = project;
                     return(
-                        <div data-aos="fade-down"
-                        data-aos-easing="linear"
-                        data-aos-duration="1500" key={id.project} className="project-info">
+                        <div data-aos="zoom-in-up"
+                        key={id} className="project-info">
                             <img src={imageUrl} alt="" />
                             <h4 data-aos="fade-down"
-                            data-aos-easing="linear"
-                            data-aos-duration="1500">{title}</h4>
+                        >{title}</h4>
                         </div>
                     )
                 })
