@@ -8,6 +8,8 @@ import Portfolio from "./Routes/Portfolio";
 import Skill from "./Routes/Skill";
 import Services from "./Routes/Services";
 import Footer from "./Routes/Footer";
+import ScrollToTop from "./spinner/ScrollToTop";
+import SocialLink from "./spinner/SocialLink";
 
 
 
@@ -23,10 +25,10 @@ function App() {
         <Element name="services"><Services/></Element>
         <Element name="portfolio"><Portfolio/></Element>
         <Element name="contact"><Contact/></Element>
+        <SocialLink/>
         <Footer/>
+        <ScrollToTop/>
       </Router>
-   
-   
     </div>
   );
 }

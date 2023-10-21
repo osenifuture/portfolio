@@ -1,22 +1,32 @@
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Link } from "react-scroll";
 
 const Navigation = () => {
     const [isMobile, setIsMobile] = useState(false)
+    const [scrolling, setSrcrolling] = useState(false);
+
+    useEffect(() => {
+        const handleSroll = () => {
+            if (window.scrollY > 600) {
+                setSrcrolling(true);
+            } else {
+                setSrcrolling(false)
+            }
+        };
+        window.addEventListener('scroll', handleSroll);
+        return () => {
+            window.addEventListener('scroll', handleSroll);
+        };
+    }, []);
 
     const handleMenu = () => {
         setIsMobile(!isMobile)
     };
 
-    const closeMenu = () => {
-        setIsMobile(false)
-    };
-
-
     return(
-        <div className="navbar-container">
-            <Link to='home' smooth={true} offset={-70} duration={500} spy={true} className="logo">
+        <div className={`navbar ${scrolling ? 'scrolled' : ''}`}>
+            <Link to='home' smooth={true} offset={-70} duration={500} spy={true} className="logo"  onClick={() => setIsMobile(false)}>
             <div class="wrapper">
 	<svg>
 		<text x="50%" y="50%" dy=".35em" text-anchor="middle">
@@ -26,24 +36,24 @@ const Navigation = () => {
 </div>
             </Link>
 
-            <div className={isMobile ? "mobile-link" : "nav-link"} onClick={closeMenu}>
+            <div className={`nav-link ${isMobile ? "mobile-link active" : ""}`}>
                 <li>
-                <Link to='home' smooth={true} offset={-70} duration={500} spy={true}  onClick={closeMenu} >HOME</Link>
+                <Link to='home' smooth={true} offset={-70} duration={500} spy={true}   onClick={() => setIsMobile(false)} >HOME</Link>
                 </li>
                 <li>
-                <Link to='about' smooth={true} offset={-70} duration={500} spy={true}   onClick={closeMenu}>ABOUT</Link>
+                <Link to='about' smooth={true} offset={-70} duration={500} spy={true}    onClick={() => setIsMobile(false)}>ABOUT</Link>
                 </li>
                 <li>
-                <Link to='skill' smooth={true} offset={-70} duration={500} spy={true}   onClick={closeMenu}>SKILLS</Link>
+                <Link to='skill' smooth={true} offset={-70} duration={500} spy={true}    onClick={() => setIsMobile(false)}>SKILLS</Link>
                 </li>
                 <li>
-                <Link to='services' smooth={true} offset={-70} duration={500} spy={true}   onClick={closeMenu}>SERVICES</Link>
+                <Link to='services' smooth={true} offset={-70} duration={500} spy={true}    onClick={() => setIsMobile(false)}>SERVICES</Link>
                 </li>
                 <li>
-                <Link to='portfolio' smooth={true} offset={-70} duration={500} spy={true}  onClick={closeMenu}>PORTFOLIO</Link>
+                <Link to='portfolio' smooth={true} offset={-70} duration={500} spy={true}   onClick={() => setIsMobile(false)}>PORTFOLIO</Link>
                 </li>
                 <li>
-                <Link to='contact' smooth={true} offset={-70} duration={500} spy={true}  onClick={closeMenu}>CONTACT</Link>  
+                <Link to='contact' smooth={true} offset={-70} duration={500} spy={true}   onClick={() => setIsMobile(false)}>CONTACT</Link>  
                 </li>
             </div>
             <div className="mobile-menu" onClick={handleMenu}>

@@ -1,6 +1,6 @@
 import { Fragment, useState } from "react";
 import axios from "axios";
-import Spinner from "../spinner/Spinner";
+import Spinner from "../spinner/Spinner"
 
 
 const defaultForm = {
@@ -59,14 +59,15 @@ const Form = () => {
      type="number" name="phone" value={phone} placeholder="Your Number"  onChange={handleChange} required />
             <input data-aos="zoom-in-up"
     type="text" name="subject" value={subject} placeholder="Subject"  onChange={handleChange} required />
-            <textarea data-aos="zoom-in-right"
-      name="message" value={message} placeholder="Message" onChange={handleChange} required cols="30" rows="10"></textarea>
+            <textarea data-aos="zoom-in"
+      name="message" value={message} placeholder="Message" onChange={handleChange} required ></textarea>
             {error && <p style={{color: 'red'}}>{error}</p>}
             {successMsg && <p style={{color: 'green'}}>{successMsg}</p>}
-            <div data-aos="zoom-in-left"
+            <div data-aos="zoom-in"
       className="button-box">
-            <button type="submit">{isLoading ?  " SUMBMITTING....." : "Send Message"}</button>
+            <button type="submit" >{isLoading ?  " SUMBMITTING....." : "Send Message"}</button>
             </div>
+            
         </form>
         </Fragment>
     )

@@ -1,8 +1,9 @@
 import { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css"
-import Fade from "../slider/HomeSlider";
 import { Fragment } from "react";
+import Fade from "../slider/HomeSlider";
+import HomeAutoType from "../slider/HomeAutoType";
 
 const Home = () => {
   useEffect(() => {
@@ -12,17 +13,19 @@ const Home = () => {
     <Fragment>
     <div id="home">
       <div className="home-container1">
-        <div className="home-container2"></div>
-        <div className="home-container3">
-          <img  data-aos="zoom-in" src="  https://i.ibb.co/wN76pRp/pexels-ultra-3911274-removebg-preview-1.png" alt="" />
+        <div className="home-container2">
+          <HomeAutoType/>
         </div>
-        <div className="home-image">
-        <Fade/>
+        <div className="home-container3">
+          <img src="https://i.ibb.co/TwhVbhF/What-is-the-MERN-stack-and-how-do-I-use-it-removebg-preview.png" alt="" />
+        </div>
+        <div className="home-mother">
+          <Fade/>
         </div>
       </div>
     </div>
     <div className="homeclient-con">
-        <div data-aos="zoom-in-right"
+        <div data-aos="zoom-in-up"
       className="client-box">
           <div className="client-circle">
             <i class="fa-solid fa-briefcase"></i>
@@ -58,7 +61,7 @@ const Home = () => {
           </div>
         </div>
 
-        <div data-aos="zoom-in-left"
+        <div data-aos="zoom-in-down"
        className="client-box">
           <div className="client-circle">
             <i class="fa-solid fa-calendar"></i>
