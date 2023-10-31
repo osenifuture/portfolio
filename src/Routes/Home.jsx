@@ -24,7 +24,7 @@ const Home = () => {
         </div>
       </div>
     </div>
-    <div className="homeclient-con">
+    {/* <div className="homeclient-con">
         <div data-aos="zoom-in-up"
       className="client-box">
           <div className="client-circle">
@@ -73,7 +73,7 @@ const Home = () => {
           </div>
         </div>
         
-      </div> 
+      </div>  */}
     </Fragment>
   );
 };
