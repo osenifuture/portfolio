@@ -3,6 +3,7 @@ import axios from "axios";
 import Spinner from "../spinner/Spinner"
 
 
+
 const defaultForm = {
     name : "",
     email : "",
@@ -67,7 +68,6 @@ const Form = () => {
       className="button-box">
             <button type="submit" >{isLoading ?  " SUMBMITTING....." : "Send Message"}</button>
             </div>
-            
         </form>
         </Fragment>
     )

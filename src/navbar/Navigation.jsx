@@ -27,7 +27,7 @@ const Navigation = () => {
     return(
         <div className={`navbar ${scrolling ? 'scrolled' : ''}`}>
             <Link to='home' smooth={true} offset={-70} duration={500} spy={true} className="logo"  onClick={() => setIsMobile(false)}>
-            <div class="wrapper">
+            <div className="wrapper">
 	<svg>
 		<text x="50%" y="50%" dy=".35em" text-anchor="middle">
 			WesttyCode

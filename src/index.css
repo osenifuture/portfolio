@@ -43,6 +43,10 @@ code {
   color: black;
 }
 
+.navbar.scrolled .mobile-menu{
+  color: black;
+}
+
  .nav-link {
    display: flex;
    justify-content: center;
@@ -68,9 +72,6 @@ code {
 }
 
 
-.mobile-menu > .fa-solid{
-  color: white
-}
 
 
 @media screen and (max-width:650px) {     
@@ -287,6 +288,7 @@ svg text {
 
 .home-slider > h1{
   color:white;
+  font-size: 2.2rem;
 }
 
 @media screen and (max-width:768px) {
@@ -405,8 +407,6 @@ svg text {
   }
 
 }
-
-
 
 
  .homeclient-con{
@@ -655,6 +655,9 @@ svg text {
   flex-direction: column;
 }
 
+#skill > h4{
+  font-size: 2rem;
+}
 
 .skill-container{
   width: 70%;
@@ -984,6 +987,11 @@ svg text {
   margin: 20px 0px;
 }
 
+.project-container > a{
+  text-decoration: none;
+  color: #0B142C;
+}
+
 .portfolio-box{
   width: 100%;
   display: flex;
@@ -1001,7 +1009,7 @@ svg text {
   font-size: 50px;
 }
 
-.project-info{
+.card-info{
   width: 100%;
   height: 250px;
   display: flex;
@@ -1011,14 +1019,21 @@ svg text {
   gap: 10px;
   box-shadow: 2px 2px 15px 2px lightgray ;
   padding: 20px;
+  transition: 0.3s ease-in-out;
 }
 
-.project-info > img{
+.card-info:hover{
+  transform: translateY(-10px);
+  transition: 0.3s ease-in-out;
+  box-shadow: 0px 10px 10px lightgray;
+}
+
+.card-info > img{
   width: 100%;
   height: 100%;
 }
 
-.project-info > h4{
+.card-info > h4{
   color: #B2B492;
 }
 
@@ -1121,6 +1136,8 @@ svg text {
 .slide {
   width: 100%;
   height: fit-content;
+  padding: 20px 0px;
+  /* background-color: red; */
 }
 
 .slider-box1{
@@ -1353,6 +1370,7 @@ form > h2{
 
 .form-container > form > textarea{
   width: 97%;
+  height: 100px;
   border: 2.2px solid #B2B492;
   outline: none;
   margin: 8px 0px;
@@ -1375,14 +1393,14 @@ form > h2{
   margin: 8px 0px;
   outline: none;
   border: none;
-  color: whitesmoke;
+  color: white;
+  font-weight: bold;
   background-color:#B2B492 ;
   cursor: pointer;
 }
 
-.form-container > form > button:hover{
-  background-color:lightgray;
-  color:#B2B492;
+.form-container > form > .button-box > button:hover{
+  background-color:#7f8067;
 }
 
 
@@ -1402,30 +1420,21 @@ form > h2{
   height: 50px;
   display: grid;
 }
-.custom-loader::before,
-.custom-loader::after {    
-  content:"";
-  grid-area: 1/1;
-  --c: radial-gradient(farthest-side,#766DF4 92%,#0000);
-  background: 
-    var(--c) 50%  0, 
-    var(--c) 50%  100%, 
-    var(--c) 100% 50%, 
-    var(--c) 0    50%;
-  background-size: 12px 12px;
-  background-repeat: no-repeat;
-  animation: s2 1s infinite;
-}
-.custom-loader::before {
-margin:4px;
-filter:hue-rotate(45deg);
-background-size: 8px 8px;
-animation-timing-function: linear
-}
 
-@keyframes s2{ 
-100%{transform: rotate(.5turn)}
+
+.custom-loader {
+  width:50px;
+  height:50px;
+  border-radius:50%;
+  background: #B2B492;
+  -webkit-mask:
+    repeating-conic-gradient(#0000 0deg,#000 1deg 70deg,#0000 71deg 90deg),
+    radial-gradient(farthest-side,#0000 calc(100% - 9px),#000 calc(100% - 8px));
+  -webkit-mask-composite: destination-in;
+  mask-composite: intersect;
+  animation:s5 1s infinite ;
 }
+@keyframes s5 {to{transform: rotate(.5turn)}}
 
 
 @media screen and (max-width:650px) {
@@ -1590,7 +1599,7 @@ animation-timing-function: linear
 
 .social-container {
   width: 2%;
-  top: 50vh;
+  top: 30vh;
   display: flex;
   position: fixed;
   justify-content: flex-start;
@@ -1821,5 +1830,5 @@ margin-left: 5px;
 
 .scroll-to-top:hover{
   background-color: white;
-  color: chocolate;
+  color:black;
 }

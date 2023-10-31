@@ -2,7 +2,7 @@
 const ProjectFile = [
 
     {    id: '1',
-        imageUrl: 'https://i.ibb.co/M9cKd3K/Password.png',
+        imageUrl: 'https://i.ibb.co/V37LNZb/Screenshot-2023-10-30-at-8-47-04-PM.png',
         title: 'DEMO'
     },
 
@@ -13,7 +13,7 @@ const ProjectFile = [
     },
 
     {   id: '3',
-        imageUrl: 'https://i.ibb.co/kSSrdCX/Screenshot-2023-08-09-at-1-00-28-PM.png',
+        imageUrl: 'https://i.ibb.co/NjyR4S1/Screenshot-2023-10-30-at-8-42-46-PM.png',
         title: 'DEMO'
     },
 

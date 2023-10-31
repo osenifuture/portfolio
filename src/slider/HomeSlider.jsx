@@ -26,7 +26,7 @@ export default class Fade extends Component {
         <h4><span>HELLO,</span> THIS IS WASIU </h4>
             <h1><span>CRE</span>ATIVE <span>SOFTWARE ENG</span>INEER</h1>
         <div className="home-button">
-          {/* <Link to="contact" > Hire me</Link> */}
+
           <button onClick={Download}>DOWNLOAD RESUME</button>
         </div>
             </div>
@@ -39,7 +39,6 @@ export default class Fade extends Component {
           <Link to="contact" >Hire me</Link>
         </div>
             </div>
-
           </Slider>
         </div>
       );

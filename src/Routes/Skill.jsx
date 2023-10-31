@@ -9,8 +9,8 @@ const Skill = () => {
   }, []);
   return (
     <div id="skill">
-      <h4 data-aos="fade-down">SKILLS</h4>
-      <h1 data-aos="fade-up">My Skills</h1>
+      <h4 data-aos="fade-down">STACKS</h4>
+      <h1 data-aos="fade-up">Technologies i have work with</h1>
       
       <div data-aos="fade-down"  className="skill-container">
        <div className="skill-box1">

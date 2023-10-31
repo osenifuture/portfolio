@@ -32,7 +32,7 @@ const About = () => {
             <i className="fa-solid fa-envelope"></i> <a href="mailto:" target="blank">osenimyfutureplan2021@gmail.com</a>
             </h3>
             <h3 data-aos="zoom-in-down">
-            <i className="fa-solid fa-phone"></i> <a href="tel:+2348062142972">+2348062142972</a>
+            <i className="fa-solid fa-phone"></i> <a href="tel:+2348062142972">+2348062142972-09133950696</a>
             </h3>
           </div>
           <div className="address-box4">
