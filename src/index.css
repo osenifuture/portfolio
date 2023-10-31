@@ -1531,6 +1531,14 @@ form > h2{
   text-decoration: none;
 }
 
+.footer-box > .foot-link:hover{
+  background-color: #B2B492;
+  color: black;
+}
+.footer-box > .foot-link:hover .fa-brands{
+  color: black;
+}
+
 .footer-box > .foot-link > .fa-brands{
   color:#B2B492;
   font-size: 20px;
@@ -1564,7 +1572,6 @@ form > h2{
 }
 
 .talk-card > .talk{
-  /* animation-name: hover; */
   padding: 5px ;
   border: 1px solid white;
   position: relative;
