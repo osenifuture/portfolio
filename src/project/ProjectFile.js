@@ -8,22 +8,22 @@ const ProjectFile = [
 
     {
         id: '2',
-        imageUrl: 'https://i.ibb.co/8bftR3F/single.png',
+        imageUrl: 'https://i.ibb.co/hctdpSK/Screenshot-2023-11-17-at-6-43-12-AM.png',
         title: 'DEMO'
     },
 
     {   id: '3',
-        imageUrl: 'https://i.ibb.co/NjyR4S1/Screenshot-2023-10-30-at-8-42-46-PM.png',
+        imageUrl: 'https://i.ibb.co/BZdYj7g/Screenshot-2023-11-17-at-6-07-14-AM.png',
         title: 'DEMO'
     },
 
     {   id: '4',
-        imageUrl: 'https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg?auto=compress&cs=tinysrgb&w=800',
+        imageUrl: 'https://i.ibb.co/5KWqRqX/Screenshot-2023-11-17-at-6-58-58-AM.png',
         title: 'DEMO'
     },
 
     {   id: '5',
-        imageUrl: 'https://images.pexels.com/photos/280221/pexels-photo-280221.jpeg?auto=compress&cs=tinysrgb&w=800',
+        imageUrl: 'https://i.ibb.co/YP2MTqd/Screenshot-2023-11-17-at-7-10-29-AM.png',
         title: 'DEMO'
     },
 

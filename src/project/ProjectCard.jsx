@@ -41,13 +41,13 @@ const ProjectCard = () => {
           case '1':
             return 'https://agoapowersmile.onrender.com/';
           case '2':
-            return '/link-for-item-2';
+            return 'https://yummytasty.vercel.app/';
           case '3':
-            return 'https://easypay-oqym.onrender.com/';
+            return 'https://olymaxsolution.vercel.app/';
           case '4':
-            return '/link-for-item-4';
+            return 'https://cinexflix.vercel.app/';
           case '5':
-            return '/link-for-item-5';
+            return 'https://todoapp-chi-one.vercel.app/';
           case '6':
             return '/link-for-item-6';
           default:
