@@ -39,7 +39,7 @@ const ProjectCard = () => {
       function getLink(id) {
         switch (id) {
           case '1':
-            return 'https://agoapowersmile.onrender.com/';
+            return 'https://agoaweb.vercel.app/';
           case '2':
             return 'https://yummytasty.vercel.app/';
           case '3':
