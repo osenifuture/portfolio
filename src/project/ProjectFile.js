@@ -28,7 +28,7 @@ const ProjectFile = [
     },
 
     {   id: '6',
-        imageUrl: 'https://images.pexels.com/photos/943700/pexels-photo-943700.jpeg?auto=compress&cs=tinysrgb&w=800',
+        imageUrl: 'https://i.ibb.co/gg4FwNP/Screenshot-2023-11-30-at-7-03-55-AM.png',
         title: 'DEMO'
     },
 

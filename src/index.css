@@ -477,11 +477,12 @@ svg text {
 
 .about-box1{
   width: 45%;
-  height:600px;
+  height:750px;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url('https://i.ibb.co/WtnKPYV/profile-pics-removebg-preview.png');
+  background-image: url('https://i.ibb.co/GtpgV6R/Whats-App-Image-2023-11-29-at-23-44-21-removebg-preview.png');
+  /* background-image: url(''); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

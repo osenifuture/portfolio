@@ -24,17 +24,18 @@ const ProjectCard = () => {
     // )
 
     return (
-        <div className="project-container">
-          {ProjectFile.map((project) => (
-            <a key={project.id} href={getLink(project.id)} className="project-info" target="_blank">
-              <div className="card-info">
-                <img src={project.imageUrl} alt="" />
-                <p>{project.title}</p>
-              </div>
-            </a>
-          ))}
-        </div>
-      );
+      <div className="project-container">
+        {ProjectFile.map((project) => (
+          <a key={project.id} href={getLink(project.id)} className="project-info" target="_blank" rel="noreferrer">
+            <div className="card-info">
+              <img src={project.imageUrl} alt="" />
+              <p>{project.title}</p>
+            </div>
+          </a>
+        ))}
+      </div>
+    );
+    
 
       function getLink(id) {
         switch (id) {
@@ -49,7 +50,7 @@ const ProjectCard = () => {
           case '5':
             return 'https://todoapp-chi-one.vercel.app/';
           case '6':
-            return '/link-for-item-6';
+            return '';
           default:
             return '/';
         }
