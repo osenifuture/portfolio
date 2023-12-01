@@ -50,7 +50,7 @@ const ProjectCard = () => {
           case '5':
             return 'https://todoapp-chi-one.vercel.app/';
           case '6':
-            return '';
+            return 'https://hejitechweb.vercel.app/';
           default:
             return '/';
         }
