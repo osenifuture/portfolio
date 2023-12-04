@@ -1225,6 +1225,30 @@ svg text {
 }
 
 
+@media screen and (max-width:768px) {
+  .testimonial-container{
+    width: 100%;
+    height: fit-content;
+    padding: 0px 10px;
+   
+  }
+
+  .slider-container{
+    width: 100%;
+    padding: 10px;
+  }
+
+  .slide{
+    width: 100%;
+  }
+
+
+  .slider-box1 > .fa-solid{
+    margin-bottom: 180px;
+  } 
+}
+
+
 @media screen and (max-width:650px) {
   .slider-container{
     width: 100%;
@@ -1246,33 +1270,6 @@ svg text {
   .slider-box2 > .slider-tag > h3{
     font-size: 12px;
   }
-}
-
-
-
-@media screen and (max-width:768px) {
-  .testimonial-container{
-    width: 100%;
-    height: fit-content;
-    padding: 0px 10px;
-   
-  }
-
-  .slider-container{
-    width: 100%;
-    padding: 10px;
-  }
-
-  .slide{
-    width: 100%;
-  }
-
-
-  .slider-box1 > .fa-solid{
-    margin-bottom: 180px;
-  }
-
- 
 }
 
 

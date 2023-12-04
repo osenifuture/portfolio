@@ -2,10 +2,18 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-scroll";
 
+
 const Navigation = () => {
     const [isMobile, setIsMobile] = useState(false)
     const [scrolling, setSrcrolling] = useState(false);
 
+    const NavLinks = ({isActive}) => {
+        return{
+            color: isActive ? "#B2B492" : ""
+        }
+    };
+
+    
     useEffect(() => {
         const handleSroll = () => {
             if (window.scrollY > 600) {
@@ -35,25 +43,24 @@ const Navigation = () => {
 	</svg>
 </div>
             </Link>
-
             <div className={`nav-link ${isMobile ? "mobile-link active" : ""}`}>
                 <li>
-                <Link to='home' smooth={true} offset={-70} duration={500} spy={true}   onClick={() => setIsMobile(false)} >HOME</Link>
+                <Link style={NavLinks} to='home' smooth={true} offset={-70} duration={500} spy={true}   onClick={() => setIsMobile(false)}  >HOME</Link>
                 </li>
                 <li>
-                <Link to='about' smooth={true} offset={-70} duration={500} spy={true}    onClick={() => setIsMobile(false)}>ABOUT</Link>
+                <Link style={NavLinks}  to='about' smooth={true} offset={-70} duration={500} spy={true}    onClick={() => setIsMobile(false)} >ABOUT</Link>
                 </li>
                 <li>
-                <Link to='skill' smooth={true} offset={-70} duration={500} spy={true}    onClick={() => setIsMobile(false)}>SKILLS</Link>
+                <Link style={NavLinks}  to='skill' smooth={true} offset={-70} duration={500} spy={true}    onClick={() => setIsMobile(false)} >SKILLS</Link>
                 </li>
                 <li>
-                <Link to='services' smooth={true} offset={-70} duration={500} spy={true}    onClick={() => setIsMobile(false)}>SERVICES</Link>
+                <Link style={NavLinks}  to='services' smooth={true} offset={-70} duration={500} spy={true}    onClick={() => setIsMobile(false)} >SERVICES</Link>
                 </li>
                 <li>
-                <Link to='portfolio' smooth={true} offset={-70} duration={500} spy={true}   onClick={() => setIsMobile(false)}>PORTFOLIO</Link>
+                <Link  style={NavLinks}  to='portfolio' smooth={true} offset={-70} duration={500} spy={true}   onClick={() => setIsMobile(false)}>PORTFOLIO</Link>
                 </li>
                 <li>
-                <Link to='contact' smooth={true} offset={-70} duration={500} spy={true}   onClick={() => setIsMobile(false)}>CONTACT</Link>  
+                <Link style={NavLinks} to='contact' smooth={true} offset={-70} duration={500} spy={true}   onClick={() => setIsMobile(false)}  >CONTACT</Link>  
                 </li>
             </div>
             <div className="mobile-menu" onClick={handleMenu}>
