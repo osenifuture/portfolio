@@ -176,7 +176,7 @@ svg text {
   justify-content: flex-start;
   align-items: flex-start;
   padding: 50px;
-  /* background-color: white; */
+  /* background-color: red; */
 }
 
 .home-container3{
@@ -304,7 +304,7 @@ svg text {
    
   .home-container2{
     width: 100%;
-    height: 600px;
+    padding: 50px 10px;
   }
 
   .home-container3 > img{
@@ -961,6 +961,11 @@ font-family: 'Sevillana', cursive;
     height: fit-content;
   }
 
+  #service > h3{
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
   #service > h1{
     font-size: 1.0rem;
   }
@@ -1073,6 +1078,7 @@ font-family: 'Sevillana', cursive;
   #portfolio{
     width: 100%;
     height: fit-content;
+    padding: 20px 0px;
   }
 
   .portfolio-container{
