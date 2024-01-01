@@ -73,6 +73,15 @@ code {
   display: none;
 }
 
+.logo{
+  width: 100px;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  /* background-color: red; */
+}
+
 
 
 
@@ -90,7 +99,6 @@ code {
     transform: translateX(-102%);
     transition: transform 0.3s ease-in-out;
     background-color: white;
-    /* background-color:rgb(16, 16, 16); */
     padding:  2px 0px;
   }
   
@@ -104,11 +112,11 @@ code {
   }
     .mobile-menu{
       display: block;
-      margin-right: 40px
+      margin-right: 10px
     }
 
-    .wrapper{
-      margin-right: 140px;
+    .logo{
+      margin-left:10px ;
     }
 }
 
