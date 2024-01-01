@@ -54,13 +54,9 @@ export default class Responsive extends Component {
               </p>
             </div>
             <div className="slider-box2">
-              <img
-                src="https://media.istockphoto.com/id/613531310/photo/young-and-handsome.jpg?s=612x612&w=0&k=20&c=RJVt3sQQ6uhh9JPSBjgTnnKrYlexIJHLsYMHOr_Dskg="
-                alt=""
-              />
               <div className="slider-tag">
                 <h4>Anifowose G.T</h4>
-                <h3>"Agoa Power Smile Limited"</h3>
+                <h3>Agoa Power Smile Limited</h3>
               </div>
             </div>
           </div>
@@ -75,13 +71,9 @@ export default class Responsive extends Component {
               </p>
             </div>
             <div className="slider-box2">
-              <img
-                src="https://www.shutterstock.com/shutterstock/photos/2312294275/display_1500/stock-photo-handsome-hispanic-man-wearing-suit-and-tie-showing-palm-hand-and-doing-ok-gesture-with-thumbs-up-2312294275.jpg"
-                alt=""
-              />
               <div className="slider-tag">
                 <h4>Festus M.J</h4>
-                <h3> "Assalaf Global Venture"</h3>
+                <h3> Assalaf Global Venture</h3>
               </div>
             </div>
           </div>
@@ -96,13 +88,9 @@ export default class Responsive extends Component {
               </p>
             </div>
             <div className="slider-box2">
-              <img
-                src="https://img.freepik.com/free-photo/portrait-expressive-young-man-wearing-formal-suit_273609-6941.jpg?w=2000"
-                alt=""
-              />
               <div className="slider-tag">
                 <h4>Ejiwumi J.A</h4>
-                <h3>"Hejitect and Associate"</h3>
+                <h3>Hejitect and Associate</h3>
               </div>
             </div>
           </div>
@@ -117,13 +105,9 @@ export default class Responsive extends Component {
               </p>
             </div>
             <div className="slider-box2">
-              <img
-                src="https://i.cbc.ca/1.6699110.1672266615!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_780/1244905750.jpg"
-                alt=""
-              />
               <div className="slider-tag">
                 <h4>Kelechi .M.J</h4>
-                <h3>"Electrik Planet"</h3>
+                <h3>Electrik Planet</h3>
               </div>
             </div>
           </div>
@@ -137,13 +121,9 @@ export default class Responsive extends Component {
               </p>
             </div>
             <div className="slider-box2">
-              <img
-                src="https://media.istockphoto.com/id/1262964434/photo/what-you-bring-determines-what-you-become.jpg?s=612x612&w=0&k=20&c=lap7B5n-Xik2a_hhB5Z0hRBgmY4pUdXf9OGh6ZZH3EE="
-                alt=""
-              />
               <div className="slider-tag">
                 <h4>Alabewele I.J</h4>
-                <h3> "Leeryjay and Resourse"</h3>
+                <h3> Leeryjay and Resourse</h3>
               </div>
             </div>
           </div>
@@ -159,13 +139,9 @@ export default class Responsive extends Component {
               </p>
             </div>
             <div className="slider-box2">
-              <img
-                src="https://img.freepik.com/free-photo/young-male-entrepreneur-making-eye-contact-against-blue-background_662251-739.jpg"
-                alt=""
-              />
               <div className="slider-tag">
                 <h4>Linus J.A</h4>
-                <h3> "Petrolseal Energy Limited"</h3>
+                <h3> Petrolseal Energy Limited</h3>
               </div>
             </div>
           </div>
@@ -180,13 +156,9 @@ export default class Responsive extends Component {
               </p>
             </div>
             <div className="slider-box2">
-              <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIEyyVFksn28XREA4WiRbjvhUqr0dYlDRHow&usqp=CAU"
-                alt=""
-              />
               <div className="slider-tag">
                 <h4>Rasheed.M.J</h4>
-                <h3>"Ladoja Motors"</h3>
+                <h3>Ladoja Motors</h3>
               </div>
             </div>
           </div>
@@ -201,13 +173,9 @@ export default class Responsive extends Component {
               </p>
             </div>
             <div className="slider-box2">
-              <img
-                src="https://media.istockphoto.com/id/1332373959/photo/very-happy-young-man-man.jpg?s=612x612&w=0&k=20&c=Du2cXmLD1Q19Ne_mTfO1lg5qr4h2lzZ7PljLNUQO94g="
-                alt=""
-              />
               <div className="slider-tag">
                 <h4>Stephen .A.J</h4>
-                <h3> "Millenium Microfinance"</h3>
+                <h3> Pine-Hub LTD</h3>
               </div>
             </div>
           </div>

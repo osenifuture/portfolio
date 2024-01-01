@@ -51,6 +51,8 @@ const Form = () => {
             {isLoading && (<Spinner/>)}
             <h2 data-aos="fade-down"
       >Get in touch Today!</h2>
+                  <textarea data-aos="zoom-in"
+      name="message" value={message} placeholder="Message" onChange={handleChange} required ></textarea>
             <div data-aos="fade-up"
      className="input-combine">
             <input type="text" name="name" value={name} placeholder="Your NAME"  onChange={handleChange} required />
@@ -60,8 +62,7 @@ const Form = () => {
      type="number" name="phone" value={phone} placeholder="Your Number"  onChange={handleChange} required />
             <input data-aos="zoom-in-up"
     type="text" name="subject" value={subject} placeholder="Subject"  onChange={handleChange} required />
-            <textarea data-aos="zoom-in"
-      name="message" value={message} placeholder="Message" onChange={handleChange} required ></textarea>
+
             {error && <p style={{color: 'red'}}>{error}</p>}
             {successMsg && <p style={{color: 'green'}}>{successMsg}</p>}
             <div data-aos="zoom-in"

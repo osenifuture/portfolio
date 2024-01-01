@@ -12,10 +12,10 @@ const Contact = () => {
     <div id="contact">
       <div className="contact-mother">
       <div className="contact-container">
-        <h3 data-aos="fade-down"
-     >CONTACT </h3>
-        <h2 data-aos="fade-up"
-     >Have a Project?</h2>
+        <h4 data-aos="fade-down"
+     >CONTACT </h4>
+        <h3 data-aos="fade-up"
+     >Have a Project?</h3>
       </div>
       <div className="formaddress-container">
         <div className="form-container">

@@ -48,6 +48,7 @@ code {
 }
 
  .nav-link {
+  height: 100%;
    display: flex;
    justify-content: center;
    align-items: center;
@@ -60,6 +61,7 @@ code {
   color: white;
   margin: 0px 10px;
   cursor: pointer;
+  font-family: 'Rajdhani', sans-serif;
 }
 
 .nav-link > li:hover{
@@ -130,6 +132,7 @@ svg text {
 	stroke-width: 2;
 	stroke: #A09875;
 	font-size: 20px;
+  font-family: 'Rajdhani', sans-serif;
 }
 @keyframes stroke {
 	0%   {
@@ -193,6 +196,7 @@ svg text {
 .home-container3 > img{
   width: 100%;
   height:50%;
+  object-fit: cover;
 }
 
 
@@ -204,11 +208,6 @@ svg text {
   justify-content: flex-start;
   align-items: center;
   padding: 50px;
-}
-
-.home-container2 > h1{
-  font-size: 35px;
-  margin: 70px 0px;
 }
 
 
@@ -226,12 +225,14 @@ svg text {
   padding: 11px ;
   background-color: #B2B492;
   text-decoration: none;
-  color: white;
-  font-weight: bold; 
+  font-weight: lighter; 
   cursor: pointer;
+  color: white;
 }
 
-
+.home-button > a:hover{
+  color:#0B142C;
+}
  .home-button > button{
   padding: 11px 20px;
   margin: 10px 0px;
@@ -240,11 +241,13 @@ svg text {
   border: 1px solid #B2B492 ;
   cursor: pointer;
   color:white;
+  font-weight: lighter;
   border-radius: 4px;
 }
 
 .home-button > button:hover{
   background-color:  #B2B492;
+  color: #000;
 }
 
 
@@ -267,11 +270,12 @@ svg text {
 
 .home-slider > h4{
   color: #B2B492;
+  font-family: 'Rajdhani', sans-serif;
 }
 
 .home-slider > h1{
   font-size: 2.4rem;
-  font-weight: bold;
+  font-weight: lighter;
 }
 
 .home-slide {
@@ -306,6 +310,10 @@ svg text {
   .home-container3 > img{
     width: 100%;
     height:20%
+  }
+
+  .home-slider > h1{
+    font-size: 1.8rem;
   }
 }
 
@@ -409,56 +417,6 @@ svg text {
 }
 
 
- .homeclient-con{
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 25px;
-  background-color: whitesmoke;
-  padding: 0px 40px;
-}
-
-.homeclient-con > .client-box{
-  width: 100%;
-  height: 200px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-}
-
-.client-box > .client-circle{
-  width: 60px;
-  height: 60px;
-  border-radius: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color:#B2B492 ;
-}
-
-.client-circle >.fa-solid{
-  color: white;
-  font-size: 40px;
-}
-
-.client-box > .client-innerbox{
-  width: 70%;
-  height: fit-content;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  flex-direction: column;
-  gap: 6px;
-}
-
-.client-innerbox > h3{
-  color: #B2B492;
-  font-size: 15px;
-} 
-
-
 
 #about{
   width: 100%;
@@ -498,6 +456,8 @@ svg text {
 .about-box2 > h4{
   color:#B2B492 ;
   margin: 10px 0px;
+  font-size: 1.5rem;
+  font-family: 'Rajdhani', sans-serif;
 }
 
 .about-box2 > h1{
@@ -508,29 +468,47 @@ svg text {
 .about-box2 > p{
   color: gray;
   line-height: 25px;
+  font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Sevillana', cursive;
 }
 
 .address-box3{
+  /* width: 100%; */
   margin-top: 50px;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: flex-start;
   flex-direction: column;
   gap: 15px;  
+  /* background-color: red; */
 }
 
 .address-box3 > h3 > span{
   color:#B2B492;
+  font-family: 'Montserrat Subrayada';
+  font-size: 0.9rem;
 }
 
 .address-box3 > h3 > .fa-solid{
-  margin: 0px 8px;
   color: grey;
+}
+
+.address-box3 > h3{
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+
 }
 
 .address-box3 > h3 > a{
   color:#B2B492 ;
   text-decoration: none;
+  font-family: 'Montserrat Subrayada';
+  font-size: 0.9rem;
+  /* background-color: pink; */
 }
 
 .address-box4{
@@ -540,7 +518,9 @@ svg text {
   align-items: flex-start;
   margin-top: 10px;
   gap: 10px; 
+  /* background-color: orange; */
 }
+
 
  .box4-inner{
    width: 98%;
@@ -549,6 +529,11 @@ svg text {
    justify-content: flex-start;
    align-items: center;
    gap: 10px;
+}
+
+.box4-inner > h3{
+  font-size: 1rem;
+  font-family: 'Rajdhani', sans-serif;
 }
 
 .box4-inner  > .hobby-box{
@@ -598,6 +583,7 @@ svg text {
 
   .about-box1{
     width: 98%;
+    height: 450px;
   }
   
   .about-box2{
@@ -629,6 +615,11 @@ svg text {
 }
 
 @media screen and (max-width:768px) {
+  .about-box1{
+    width: 98%;
+    height: 450px;
+  }
+  
   .about-box2{
     padding-left: 10px;
   }
@@ -648,7 +639,6 @@ svg text {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* background-color: #19202B; */
   background-color:  #0B142C;
   margin: 20px 0px;
   color: white;
@@ -657,6 +647,12 @@ svg text {
 
 #skill > h4{
   font-size: 2rem;
+  font-family: 'Montserrat Subrayada';
+}
+
+#skill > h1{
+  font-size: 2rem;
+  font-family: 'Rajdhani', sans-serif;
 }
 
 .skill-container{
@@ -692,6 +688,10 @@ svg text {
   flex-direction: column;
   position: absolute;
   transition: 0.3s ease-in-out;
+}
+
+.skill-card > h4{
+  font-family: 'Rajdhani', sans-serif;
 }
 
 .skill-box1:hover .skill-card{
@@ -853,11 +853,22 @@ svg text {
   padding: 10px;
 }
 
+#service > h4{
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 1.5rem;
+}
+
+#service > h3{
+  font-family: 'Montserrat Subrayada';
+  font-size: 2rem;
+  margin: 20px 0px;
+}
+
 .service-container{
   width: 70%;
   display: grid;
   grid-template-columns: repeat(3, 2fr);
-  margin: 0px auto;
+  margin: 20px auto;
   row-gap: 10px;
   padding: 5px;
 }
@@ -879,6 +890,10 @@ svg text {
   box-shadow: 0px 5px 10px lightgray;
 }
 
+.service-box > p{
+  font-family: 'Rajdhani', sans-serif;
+}
+
 .service-box:hover{
   background-color: #B2B492;
   transform: translateY(-10px);
@@ -888,6 +903,10 @@ svg text {
 
 .service-box > h3{
   transition: 0.3s ease-in-out;
+  font-family: 'Rajdhani', sans-serif;
+  color: #0B142C;
+  font-weight: bold;
+
 }
 
 .service-box:hover h3{
@@ -983,6 +1002,11 @@ svg text {
   align-items: center;
 }
 
+.portfolio-box > h4{
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 1.5rem;
+  color: #B2B492;
+}
 
 .project-container{
   width: 90%;
@@ -1006,13 +1030,11 @@ svg text {
   align-items: center;
 }
 
-.portfolio-box > h4{
-  color: #B2B492;
-  margin-top:60px  ;
-}
 
 .portfolio-box > h2{
-  font-size: 50px;
+  font-size: 2.5rem;
+  font-family: 'Montserrat Subrayada';
+  margin: 10px 0px;
 }
 
 .card-info{
@@ -1026,6 +1048,10 @@ svg text {
   box-shadow: 2px 2px 15px 2px lightgray ;
   padding: 20px;
   transition: 0.3s ease-in-out;
+}
+
+.card-info > p{
+  font-family: 'Rajdhani', sans-serif;
 }
 
 .card-info:hover{
@@ -1105,12 +1131,15 @@ svg text {
 .testimonial-container > h4{
   color: whitesmoke;
   margin-top: 50px ;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 1.5rem;
 }
 
 .testimonial-container > h1{
   color: white;
   margin: 20px 0px;
-  font-size: 50px;
+  font-size: 2.5rem;
+  font-family: 'Montserrat Subrayada';
 }
 
 
@@ -1178,29 +1207,25 @@ svg text {
   flex-direction: column;
 }
 
-.slider > .slider-box2 > img {
-  width: 70px;
-  height: 70px;
-  border-radius: 100%;
-  object-fit: cover;
-  margin: 10px auto;
+.slider-tag > h4{
+  font-family: 'Rajdhani', sans-serif;
 }
+
+
 
 .slider > .slider-box1 > p {
   padding: 5px 10px;
-  color: grey;
   line-height: 1.5;
   text-align:left;
+  font-family: 'Rajdhani', sans-serif;
 }
 
-.slider > h4 {
-  padding: 10px;
-  color: rgb(70, 70, 228);
-}
 
 .slider-box2 > .slider-tag > h3 {
   margin: 8px 0px;
   color: grey;
+  font-family: 'Montserrat Subrayada';
+  /* font-family: 'Rajdhani', sans-serif; */
 }
 
 
@@ -1230,8 +1255,9 @@ svg text {
     width: 100%;
     height: fit-content;
     padding: 0px 10px;
-   
   }
+
+ 
 
   .slider-container{
     width: 100%;
@@ -1270,6 +1296,11 @@ svg text {
   .slider-box2 > .slider-tag > h3{
     font-size: 12px;
   }
+
+  .testimonial-container > h1{
+    font-size: 1.5rem;
+    text-align: center;
+  }
 }
 
 
@@ -1280,8 +1311,8 @@ svg text {
   justify-content: center;
   align-items: flex-start;
   background-color: white;
-
 }
+
 .contact-mother{
   width: 100%;
   display: flex;
@@ -1311,9 +1342,17 @@ svg text {
 }
 
 
-.contact-container > h3{
+.contact-container > h4{
   color: #B2B492;
   margin-top: 20px;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 1.5rem;
+}
+
+.contact-container > h3{
+  font-family: 'Montserrat Subrayada';
+  font-size: 2.5rem;
+  margin: 10px 0px;
 }
 
 .form-container{
@@ -1336,13 +1375,11 @@ svg text {
 }
 
 
-.contact-container > h2{
-  font-size: 55px;
+ form > h2{
+  font-family: 'Rajdhani', sans-serif;
+  margin: 20px 0px;
 }
 
-form > h2{
-    margin: 15px 0px;
-}
 
 .form-container > form > .input-combine{
    width: 97%;
@@ -1360,6 +1397,7 @@ form > h2{
   outline: none;
   margin: 8px 0px;
   padding-left: 10px;
+  font-family: 'Rajdhani', sans-serif;
 }
 
 .form-container > form > input{
@@ -1369,16 +1407,18 @@ form > h2{
   outline: none;
   margin: 8px 0px;
   padding-left: 10px;
+  font-family: 'Rajdhani', sans-serif;
 }
 
 .form-container > form > textarea{
   width: 97%;
-  height: 100px;
+  height: 150px;
   border: 2.2px solid #B2B492;
   outline: none;
   margin: 8px 0px;
   padding-left: 10px;
   padding-top: 15px;
+  font-family: 'Rajdhani', sans-serif;
 }
 
  .button-box{
@@ -1400,6 +1440,7 @@ form > h2{
   font-weight: bold;
   background-color:#B2B492 ;
   cursor: pointer;
+  font-family: 'Rajdhani', sans-serif;
 }
 
 .form-container > form > .button-box > button:hover{
@@ -1439,6 +1480,15 @@ form > h2{
 }
 @keyframes s5 {to{transform: rotate(.5turn)}}
 
+@media screen and (max-width:768px) {
+  #contact{
+    width: 100%;
+    height: fit-content;
+  }  
+
+
+}
+
 
 @media screen and (max-width:650px) {
   #contact {
@@ -1462,6 +1512,9 @@ form > h2{
 .contact-container > h1{
   font-size: 2.3rem;
 }
+.contact-container > h3{
+  font-size: 1.8rem;
+}
 
 .address-container{
   width: 100%;
@@ -1484,12 +1537,6 @@ form > h2{
   
 }
 
-@media screen and (max-width:768px) {
-    #contact{
-      width: 100%;
-      height: fit-content;
-    }  
-}
 
 #footer {
   width: 100%;
@@ -1514,6 +1561,19 @@ form > h2{
   gap: 20px;
 }
 
+.footer-mother > p{
+  font-family: 'Rajdhani', sans-serif;
+}
+
+.footer-mother > h3{
+  font-size: 1.8rem;
+  font-family: 'Montserrat Subrayada';
+}
+
+.footer-mother > h4{
+  font-size: 1rem;
+  font-family: 'Rajdhani', sans-serif;
+}
 
 .footer-mother > .footer-box{
   width: 94%;
@@ -1601,6 +1661,11 @@ form > h2{
   .footer-mother{
     width: 100%;
     padding: 15px 10px;
+  }
+
+  .footer-mother > h3{
+    font-size: 1.1rem;
+    text-align: center;
   }
 
 }

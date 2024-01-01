@@ -12,7 +12,7 @@ const Footer = () => {
             <div className="footer-mother">
                 <h3 data-aos="fade-down">Interested in working with me?</h3>
                 <p data-aos="zoom-in">OR</p>
-                <h4 data-aos="fade-up">Do you have project to bring to live?</h4>
+                <h4 data-aos="fade-up">Do you have a project  to bring to live?</h4>
                 <div data-aos="fade-down"
                 className="talk-card">
                 <Link to="contact" className="talk"><p>Let's Talk</p></Link>

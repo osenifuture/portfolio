@@ -4,7 +4,7 @@ import Typewriter from "typewriter-effect";
 const HomeAutoType = () => {
     const typewriterContainerStyles = {
         color: "white",
-        // lineHeight: "1.5rem",
+        fontWeight: 'lighter',
         fontSize:'2.5rem',
         margin:'15px 0px'
       };

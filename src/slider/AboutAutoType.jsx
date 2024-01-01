@@ -5,7 +5,8 @@ function AboutAutoType() {
   const typewriterContainerStyles = {
     color: "#183152",
     lineHeight: "1.5rem",
-    fontSize:'2rem',
+    fontSize:'1.5rem',
+    fontFamily: 'Montserrat Subrayada',
     margin:'15px 0px'
   };
 

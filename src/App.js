@@ -6,10 +6,10 @@ import Contact from "./Routes/Contact";
 import Navigation from "./navbar/Navigation";
 import Portfolio from "./Routes/Portfolio";
 import Skill from "./Routes/Skill";
-import Services from "./Routes/Services";
+// import Services from "./Routes/Services";
 import Footer from "./Routes/Footer";
 import ScrollToTop from "./spinner/ScrollToTop";
-import SocialLink from "./spinner/SocialLink";
+// import SocialLink from "./spinner/SocialLink";
 
 
 
@@ -22,10 +22,10 @@ function App() {
         <Element name="home"><Home/></Element>
         <Element name="about"><About/></Element>
         <Element name="skill"><Skill/></Element>
-        <Element name="services"><Services/></Element>
+        {/* <Element name="services"><Services/></Element> */}
         <Element name="portfolio"><Portfolio/></Element>
         <Element name="contact"><Contact/></Element>
-        <SocialLink/>
+        {/* <SocialLink/> */}
         <Footer/>
         <ScrollToTop/>
       </Router>

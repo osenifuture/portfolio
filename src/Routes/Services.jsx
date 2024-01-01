@@ -10,7 +10,7 @@ const Services = () => {
   return (
     <div id="service">
       <h4>I AM GREATE AT</h4>
-      <h1>I do awesome services for my clients</h1>
+      <h3>I do awesome services for my clients</h3>
       <div className="service-container">
         <div data-aos="fade-down" className="service-box">
           <h3>WEB DESIGN</h3>

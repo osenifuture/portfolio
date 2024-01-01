@@ -17,7 +17,7 @@ const Home = () => {
           <HomeAutoType/>
         </div>
         <div className="home-container3">
-          <img src="https://i.ibb.co/TwhVbhF/What-is-the-MERN-stack-and-how-do-I-use-it-removebg-preview.png" alt="" />
+          <img data-aos="zoom-in"  src="https://i.ibb.co/TwhVbhF/What-is-the-MERN-stack-and-how-do-I-use-it-removebg-preview.png" alt="" />
         </div>
         <div className="home-mother">
           <Fade/>
