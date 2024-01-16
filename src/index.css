@@ -861,12 +861,12 @@ font-family: 'Sevillana', cursive;
 
 #service{
   width: 100%;
-  height: 100vh;
+  /* height: 100vh; */
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 10px;
+  padding: 50px 0px;
 }
 
 #service > h4{
@@ -884,9 +884,10 @@ font-family: 'Sevillana', cursive;
   width: 70%;
   display: grid;
   grid-template-columns: repeat(3, 2fr);
-  margin: 20px auto;
+  margin: 10px auto;
   row-gap: 10px;
   padding: 5px;
+  /* background-color: red; */
 }
 
 .service-box{
@@ -974,7 +975,7 @@ font-family: 'Sevillana', cursive;
 @media screen and (max-width:650px) {
   #service{
     width: 100%;
-    height: fit-content;
+    padding: 10px;
   }
 
   #service > h3{
@@ -1008,11 +1009,11 @@ font-family: 'Sevillana', cursive;
 
 #portfolio{
   width: 100%;
-  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding: 20px 0px;
   background-color: whitesmoke;
 }
 
@@ -1060,7 +1061,7 @@ font-family: 'Sevillana', cursive;
 
 .card-info{
   width: 100%;
-  height: 250px;
+  /* height: 250px; */
   display: flex;
   justify-content: center;
   align-items: center;

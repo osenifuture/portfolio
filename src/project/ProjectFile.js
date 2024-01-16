@@ -23,11 +23,16 @@ const ProjectFile = [
     },
 
     {   id: '5',
-        imageUrl: 'https://i.ibb.co/YP2MTqd/Screenshot-2023-11-17-at-7-10-29-AM.png',
+        imageUrl: 'https://i.ibb.co/9sxXh3B/Screenshot-2024-01-15-at-17-40-52.png',
         title: 'DEMO'
     },
 
     {   id: '6',
+        imageUrl: 'https://i.ibb.co/YP2MTqd/Screenshot-2023-11-17-at-7-10-29-AM.png',
+        title: 'DEMO'
+    },
+
+    {   id: '7',
         imageUrl: 'https://i.ibb.co/gg4FwNP/Screenshot-2023-11-30-at-7-03-55-AM.png',
         title: 'DEMO'
     },
