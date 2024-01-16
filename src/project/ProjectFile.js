@@ -37,6 +37,11 @@ const ProjectFile = [
         title: 'DEMO'
     },
 
+    {   id: '8',
+        imageUrl: 'https://i.ibb.co/NVbVgw1/Screenshot-2024-01-15-at-18-20-41.png',
+        title: 'DEMO'
+    },
+
 ];
 
 export default ProjectFile;
