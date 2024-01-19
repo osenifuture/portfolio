@@ -28,12 +28,12 @@ const ProjectFile = [
     },
 
     {   id: '6',
-        imageUrl: 'https://i.ibb.co/YP2MTqd/Screenshot-2023-11-17-at-7-10-29-AM.png',
-        title: 'DEMO'
-    },
+    imageUrl: 'https://i.ibb.co/gg4FwNP/Screenshot-2023-11-30-at-7-03-55-AM.png',
+    title: 'DEMO'
+},
 
-    {   id: '7',
-        imageUrl: 'https://i.ibb.co/gg4FwNP/Screenshot-2023-11-30-at-7-03-55-AM.png',
+{   id: '7',
+    imageUrl: 'https://i.ibb.co/YP2MTqd/Screenshot-2023-11-17-at-7-10-29-AM.png',
         title: 'DEMO'
     },
 
