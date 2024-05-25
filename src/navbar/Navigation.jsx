@@ -36,11 +36,12 @@ const Navigation = () => {
         <div className={`navbar ${scrolling ? 'scrolled' : ''}`}>
             <Link to='home' smooth={true} offset={-70} duration={500} spy={true} className="logo"  onClick={() => setIsMobile(false)}>
             <div className="wrapper">
-	<svg>
+	<Link to="/">
+    <svg>
 		<text x="50%" y="50%" dy=".35em" text-anchor="middle">
 			WesttyCode
 		</text>
-	</svg>
+	</svg></Link>
 </div>
             </Link>
             <div className={`nav-link ${isMobile ? "mobile-link active" : ""}`}>

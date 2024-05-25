@@ -48,27 +48,27 @@ const Form = () => {
     return(
         <Fragment>
         <form onSubmit={handleSubmit}>
-            {isLoading && (<Spinner/>)}
-            <h2 data-aos="fade-down"
-      >Get in touch Today!</h2>
+            <p data-aos="fade-down"
+      >Get in touch Today!</p>
                   <textarea data-aos="zoom-in"
       name="message" value={message} placeholder="Message" onChange={handleChange} required ></textarea>
             <div data-aos="fade-up"
      className="input-combine">
-            <input type="text" name="name" value={name} placeholder="Your NAME"  onChange={handleChange} required />
-            <input type="email" name="email" value={email} placeholder="Your Email"  onChange={handleChange} required />
-            </div>   
+            <input type="text" name="name" value={name} placeholder="Enter Name"  onChange={handleChange} required />
+            <input type="email" name="email" value={email} placeholder="Enter Email"  onChange={handleChange} required />
+            </div>
+            <div className="input-combine">
             <input data-aos="zoom-in"
-     type="number" name="phone" value={phone} placeholder="Your Number"  onChange={handleChange} required />
+     type="number" name="phone" value={phone} placeholder="Enter Number"  onChange={handleChange} required />
             <input data-aos="zoom-in-up"
     type="text" name="subject" value={subject} placeholder="Subject"  onChange={handleChange} required />
-
-            {error && <p style={{color: 'red'}}>{error}</p>}
-            {successMsg && <p style={{color: 'green'}}>{successMsg}</p>}
+            </div>
             <div data-aos="zoom-in"
       className="button-box">
-            <button type="submit" >{isLoading ?  " SUMBMITTING....." : "Send Message"}</button>
+            <button type="submit" disabled={isLoading}>{isLoading ?  <Spinner/> : "Send Message"}</button>
             </div>
+            {error && <p style={{color: 'red'}}>{error}</p>}
+            {successMsg && <p style={{color: 'green'}}>{successMsg}</p>}
         </form>
         </Fragment>
     )

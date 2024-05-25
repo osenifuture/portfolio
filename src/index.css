@@ -1,22 +1,16 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
 
 *{
   padding: 0%;
   margin: 0%;
   box-sizing: border-box;
   list-style-type: none;
+  font-family: Montserrat;  
+}
+
+@font-face {
+   font-family: Montserrat;
+  src: url(/public/Montserrat-VariableFont_wght.ttf);
 }
 
 .navbar{
@@ -61,8 +55,9 @@ code {
   color: white;
   margin: 0px 10px;
   cursor: pointer;
-  font-family: 'Rajdhani', sans-serif;
 }
+
+
 
 .nav-link > li:hover{
   text-decoration: underline;
@@ -82,8 +77,6 @@ code {
   margin-left:10px ;
   /* background-color: red; */
 }
-
-
 
 
 @media screen and (max-width:650px) {     
@@ -136,8 +129,6 @@ code {
 }
   
 
-
-@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
 
 svg {
 	font-family: "Russo One", sans-serif;
@@ -258,7 +249,6 @@ svg text {
   border: 1px solid #B2B492 ;
   cursor: pointer;
   color:white;
-  font-weight: lighter;
   border-radius: 4px;
 }
 
@@ -287,12 +277,11 @@ svg text {
 
 .home-slider > h4{
   color: #B2B492;
-  font-family: 'Rajdhani', sans-serif;
 }
 
 .home-slider > h1{
   font-size: 2.4rem;
-  font-weight: lighter;
+  /* font-weight: lighter; */
 }
 
 .home-slide {
@@ -309,7 +298,7 @@ svg text {
 
 .home-slider > h1{
   color:white;
-  font-size: 2.2rem;
+  font-size: 1.8rem;
 }
 
 @media screen and (max-width:768px) {
@@ -326,7 +315,7 @@ svg text {
 
   .home-container3 > img{
     width: 100%;
-    height:20%
+    height:20%;
   }
 
   .home-slider > h1{
@@ -471,10 +460,9 @@ svg text {
 }
 
 .about-box2 > h4{
-  color:#B2B492 ;
+  color:#000 ;
   margin: 10px 0px;
   font-size: 1.5rem;
-  font-family: 'Rajdhani', sans-serif;
 }
 
 .about-box2 > h1{
@@ -491,7 +479,6 @@ font-family: 'Sevillana', cursive;
 }
 
 .address-box3{
-  /* width: 100%; */
   margin-top: 50px;
   display: flex;
   justify-content: flex-start;
@@ -502,9 +489,9 @@ font-family: 'Sevillana', cursive;
 }
 
 .address-box3 > h3 > span{
-  color:#B2B492;
-  font-family: 'Montserrat Subrayada';
+  color:#000;
   font-size: 0.9rem;
+  font-weight: 400;
 }
 
 .address-box3 > h3 > .fa-solid{
@@ -521,11 +508,10 @@ font-family: 'Sevillana', cursive;
 }
 
 .address-box3 > h3 > a{
-  color:#B2B492 ;
+  color:#000 ;
   text-decoration: none;
-  font-family: 'Montserrat Subrayada';
   font-size: 0.9rem;
-  /* background-color: pink; */
+  font-weight: 400;
 }
 
 .address-box4{
@@ -550,7 +536,6 @@ font-family: 'Sevillana', cursive;
 
 .box4-inner > h3{
   font-size: 1rem;
-  font-family: 'Rajdhani', sans-serif;
 }
 
 .box4-inner  > .hobby-box{
@@ -600,7 +585,9 @@ font-family: 'Sevillana', cursive;
 
   .about-box1{
     width: 98%;
-    height: 450px;
+    height: 480px;
+    margin-top: 15px;
+    display: none;
   }
   
   .about-box2{
@@ -664,12 +651,12 @@ font-family: 'Sevillana', cursive;
 
 #skill > h4{
   font-size: 2rem;
-  font-family: 'Montserrat Subrayada';
+  font-weight: 600;
 }
 
 #skill > h1{
   font-size: 2rem;
-  font-family: 'Rajdhani', sans-serif;
+  font-weight: 400;
 }
 
 .skill-container{
@@ -707,9 +694,6 @@ font-family: 'Sevillana', cursive;
   transition: 0.3s ease-in-out;
 }
 
-.skill-card > h4{
-  font-family: 'Rajdhani', sans-serif;
-}
 
 .skill-box1:hover .skill-card{
   scale: 1.3;
@@ -834,6 +818,7 @@ font-family: 'Sevillana', cursive;
  .skill-box6 > .skill-card > img{
   width: 70px;
   height: 70px;
+  object-fit: cover;
 }
 
 @media screen and (max-width:768px) {
@@ -871,12 +856,11 @@ font-family: 'Sevillana', cursive;
 }
 
 #service > h4{
-  font-family: 'Rajdhani', sans-serif;
   font-size: 1.5rem;
+  font-weight: 400;
 }
 
 #service > h3{
-  font-family: 'Montserrat Subrayada';
   font-size: 2rem;
   margin: 20px 0px;
 }
@@ -888,7 +872,6 @@ font-family: 'Sevillana', cursive;
   margin: 10px auto;
   row-gap: 10px;
   padding: 5px;
-  /* background-color: red; */
 }
 
 .service-box{
@@ -909,7 +892,7 @@ font-family: 'Sevillana', cursive;
 }
 
 .service-box > p{
-  font-family: 'Rajdhani', sans-serif;
+font-weight: 400;
 }
 
 .service-box:hover{
@@ -921,10 +904,8 @@ font-family: 'Sevillana', cursive;
 
 .service-box > h3{
   transition: 0.3s ease-in-out;
-  font-family: 'Rajdhani', sans-serif;
   color: #0B142C;
-  font-weight: bold;
-
+  font-weight: 600;
 }
 
 .service-box:hover h3{
@@ -1026,9 +1007,9 @@ font-family: 'Sevillana', cursive;
 }
 
 .portfolio-box > h4{
-  font-family: 'Rajdhani', sans-serif;
   font-size: 1.5rem;
   color: #B2B492;
+  font-weight: 400;
 }
 
 .project-container{
@@ -1056,7 +1037,7 @@ font-family: 'Sevillana', cursive;
 
 .portfolio-box > h2{
   font-size: 2.5rem;
-  font-family: 'Montserrat Subrayada';
+  font-weight: 600;
   margin: 10px 0px;
 }
 
@@ -1074,7 +1055,7 @@ font-family: 'Sevillana', cursive;
 }
 
 .card-info > p{
-  font-family: 'Rajdhani', sans-serif;
+font-weight: 400;
 }
 
 .card-info:hover{
@@ -1155,7 +1136,7 @@ font-family: 'Sevillana', cursive;
 .testimonial-container > h4{
   color: whitesmoke;
   margin-top: 50px ;
-  font-family: 'Rajdhani', sans-serif;
+  font-weight: 400;
   font-size: 1.5rem;
 }
 
@@ -1163,7 +1144,7 @@ font-family: 'Sevillana', cursive;
   color: white;
   margin: 20px 0px;
   font-size: 2.5rem;
-  font-family: 'Montserrat Subrayada';
+  font-weight: 600;
 }
 
 
@@ -1181,7 +1162,7 @@ font-family: 'Sevillana', cursive;
 
 .slider {
   max-width: 400px;
-  min-height: 200px;
+  height: 250px;
   background-color: white;
   text-align: center;
   display: flex;
@@ -1196,7 +1177,6 @@ font-family: 'Sevillana', cursive;
   width: 100%;
   height: fit-content;
   padding: 20px 0px;
-  /* background-color: red; */
 }
 
 .slider-box1{
@@ -1206,7 +1186,6 @@ font-family: 'Sevillana', cursive;
   align-items: center;
   gap: 7px;
   margin: 10px 0px;
-  /* background-color: red; */
 }
 
 .slider-box1 > .fa-solid{
@@ -1231,25 +1210,19 @@ font-family: 'Sevillana', cursive;
   flex-direction: column;
 }
 
-.slider-tag > h4{
-  font-family: 'Rajdhani', sans-serif;
-}
-
-
 
 .slider > .slider-box1 > p {
   padding: 5px 10px;
   line-height: 1.5;
   text-align:left;
-  font-family: 'Rajdhani', sans-serif;
+  font-weight: 400;
 }
 
 
 .slider-box2 > .slider-tag > h3 {
   margin: 8px 0px;
   color: grey;
-  font-family: 'Montserrat Subrayada';
-  /* font-family: 'Rajdhani', sans-serif; */
+  font-weight: 400;
 }
 
 
@@ -1266,7 +1239,6 @@ font-family: 'Sevillana', cursive;
   height: 7px;
   background-color:grey;
   border-radius: 50%;
-  /* border: 1px solid blue; */
 }
 
 .slick-dots li.slick-active button {
@@ -1344,7 +1316,6 @@ font-family: 'Sevillana', cursive;
   align-items: center;
   flex-direction: column;
   gap:10px;
-  /* background-color: red; */
 }
 
 .formaddress-container{
@@ -1352,7 +1323,6 @@ font-family: 'Sevillana', cursive;
   width: 100%;
   justify-content: center;
   align-items: center; 
-  /* background-color: orange;  */
 }
 
 .contact-container{
@@ -1361,7 +1331,6 @@ font-family: 'Sevillana', cursive;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  /* background-color: green; */
   margin-top: 40px;
 }
 
@@ -1369,12 +1338,12 @@ font-family: 'Sevillana', cursive;
 .contact-container > h4{
   color: #B2B492;
   margin-top: 20px;
-  font-family: 'Rajdhani', sans-serif;
+  font-weight: 400;
   font-size: 1.5rem;
 }
 
 .contact-container > h3{
-  font-family: 'Montserrat Subrayada';
+  font-weight: 600;
   font-size: 2.5rem;
   margin: 10px 0px;
 }
@@ -1396,12 +1365,14 @@ font-family: 'Sevillana', cursive;
   align-items: center;
   flex-direction: column;
   position: relative;
+  gap: 10px;
 }
 
 
- form > h2{
-  font-family: 'Rajdhani', sans-serif;
+ form > p{
   margin: 20px 0px;
+  font-weight: 400;
+  font-size: 1.5rem;
 }
 
 
@@ -1417,32 +1388,31 @@ font-family: 'Sevillana', cursive;
 .form-container > form > .input-combine >input{
   width: 50%;
   height: 45px;
-  border: 2.2px solid #B2B492;
+  border: 1px solid #B2B492;
   outline: none;
   margin: 8px 0px;
   padding-left: 10px;
-  font-family: 'Rajdhani', sans-serif;
+  border-radius: 5px;
 }
 
 .form-container > form > input{
   width: 97%;
   height: 45px;
-  border: 2.2px solid #B2B492;
+  border: 1px solid #B2B492;
   outline: none;
   margin: 8px 0px;
   padding-left: 10px;
-  font-family: 'Rajdhani', sans-serif;
+  border-radius: 5px;
 }
 
 .form-container > form > textarea{
   width: 97%;
   height: 150px;
-  border: 2.2px solid #B2B492;
+  border: 1px solid #B2B492;
   outline: none;
   margin: 8px 0px;
-  padding-left: 10px;
-  padding-top: 15px;
-  font-family: 'Rajdhani', sans-serif;
+  padding: 10px;
+  border-radius: 5px;
 }
 
  .button-box{
@@ -1456,32 +1426,30 @@ font-family: 'Sevillana', cursive;
 }
 
 .button-box > button{
-  padding: 15px 45px;
+ width: 100%;
+ height: 50px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
   margin: 8px 0px;
   outline: none;
   border: none;
   color: white;
-  font-weight: bold;
+  font-weight: 600;
   background-color:#B2B492 ;
   cursor: pointer;
-  font-family: 'Rajdhani', sans-serif;
+  border-radius: 80px;
+
 }
 
 .form-container > form > .button-box > button:hover{
-  background-color:#7f8067;
+  background-color: #0B142C;
 }
 
-
-.spinner-container {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: whitesmoke;
+.form-container > form > .button-box  > button:disabled {
+  background-color: grey;
+  cursor: not-allowed;
 }
-
 
 .custom-loader {
   width: 50px;
@@ -1491,10 +1459,10 @@ font-family: 'Sevillana', cursive;
 
 
 .custom-loader {
-  width:50px;
-  height:50px;
+  width:25px;
+  height:25px;
   border-radius:50%;
-  background: #B2B492;
+  background:#0B142C;
   -webkit-mask:
     repeating-conic-gradient(#0000 0deg,#000 1deg 70deg,#0000 71deg 90deg),
     radial-gradient(farthest-side,#0000 calc(100% - 9px),#000 calc(100% - 8px));
@@ -1568,8 +1536,6 @@ font-family: 'Sevillana', cursive;
   display: flex;
   justify-content: center;
   align-items: center;
-  /* background-color: rgba(7, 6, 6, 0.792); */
-  /* background-color:  #19202B; */
   background-color:  #0B142C;
   color: white;
   max-height: 300px;
@@ -1585,18 +1551,13 @@ font-family: 'Sevillana', cursive;
   gap: 20px;
 }
 
-.footer-mother > p{
-  font-family: 'Rajdhani', sans-serif;
-}
-
 .footer-mother > h3{
   font-size: 1.8rem;
-  font-family: 'Montserrat Subrayada';
 }
 
 .footer-mother > h4{
   font-size: 1rem;
-  font-family: 'Rajdhani', sans-serif;
+  font-weight: 400;
 }
 
 .footer-mother > .footer-box{
