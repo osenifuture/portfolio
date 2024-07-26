@@ -24,56 +24,6 @@ const Home = () => {
         </div>
       </div>
     </div>
-    {/* <div className="homeclient-con">
-        <div data-aos="zoom-in-up"
-      className="client-box">
-          <div className="client-circle">
-            <i class="fa-solid fa-briefcase"></i>
-          </div>
-
-          <div className="client-innerbox">
-            <h2>20</h2>
-            <h3>PROJECT COMPLETED</h3>
-          </div>
-        </div>
-
-        <div data-aos="fade-down"
-        className="client-box">
-          <div className="client-circle">
-            <i class="fa-solid fa-person-circle-check"></i>
-          </div>
-
-          <div className="client-innerbox">
-            <h2>20</h2>
-            <h3>HAPPY CLIENT</h3>
-          </div>
-        </div>
-
-        <div data-aos="fade-up"
-         className="client-box">
-          <div className="client-circle">
-            <i class="fa-solid fa-mug-hot"></i>
-          </div>
-
-          <div className="client-innerbox">
-            <h2>15</h2>
-            <h3>CUPS OF COFFEE</h3>
-          </div>
-        </div>
-
-        <div data-aos="zoom-in-down"
-       className="client-box">
-          <div className="client-circle">
-            <i class="fa-solid fa-calendar"></i>
-          </div>
-
-          <div className="client-innerbox">
-            <h2>2</h2>
-            <h3>YEARS EXPERIENCE</h3>
-          </div>
-        </div>
-        
-      </div>  */}
     </Fragment>
   );
 };
