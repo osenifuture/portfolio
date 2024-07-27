@@ -471,7 +471,7 @@ svg text {
 }
 
 .profile-skill {
-  width: 85%;
+  width: 88%;
   display: grid;
   grid-template-columns: repeat(2, 3fr);
   gap: 20px;
