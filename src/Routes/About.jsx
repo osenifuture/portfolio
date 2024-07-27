@@ -10,7 +10,67 @@ const About = () => {
   return (
     <div id="about">
       <div className="about-container">
-        <div data-aos="zoom-in-up" className="about-box1"></div>
+        <div  className="about-box1">
+        <div data-aos="zoom-in-up" className="profile-card">
+        <div className="profile-image"></div>
+        </div>
+        <div className="profile-skill">
+        <div data-aos="fade-down" className="wrapper">
+      <span>
+      <h3>HTML</h3>
+      <p>85%</p>
+      </span>
+         <div className="range-1">
+          <div className="inner-1"></div>
+         </div>
+        </div>
+        <div data-aos="fade-up" className="wrapper">
+      <span>
+      <h3>CSS</h3>
+      <p>80%</p>
+      </span>
+         <div className="range-1">
+          <div className="inner-2"></div>
+         </div>
+        </div>
+        <div data-aos="fade-down"  className="wrapper">
+      <span>
+      <h3>JAVASCRIPT</h3>
+      <p>75%</p>
+      </span>
+         <div className="range-1">
+          <div className="inner-3"></div>
+         </div>
+        </div>
+        <div data-aos="fade-up" className="wrapper">
+      <span>
+      <h3>REACT</h3>
+      <p>85%</p>
+      </span>
+         <div className="range-1">
+          <div className="inner-4"></div>
+         </div>
+        </div>
+        <div data-aos="fade-down" className="wrapper">
+      <span>
+      <h3>GITUP</h3>
+      <p>80%</p>
+      </span>
+         <div className="range-1">
+          <div className="inner-2"></div>
+         </div>
+        </div>
+        <div data-aos="fade-up" className="wrapper">
+      <span>
+      <h3>FIREBASE</h3>
+      <p>55%</p>
+      </span>
+         <div className="range-1">
+          <div className="inner-6"></div>
+         </div>
+        </div>
+        </div>
+        </div>
         <div className="about-box2">
           <h4 data-aos="fade-down">MY INTRO</h4>
           <AboutAutoType/>
