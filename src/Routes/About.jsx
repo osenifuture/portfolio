@@ -18,7 +18,7 @@ const About = () => {
         <div data-aos="fade-down" className="wrapper">
       <span>
       <h3>HTML</h3>
-      <p>85%</p>
+      <p>99%</p>
       </span>
          <div className="range-1">
           <div className="inner-1"></div>
@@ -27,7 +27,7 @@ const About = () => {
         <div data-aos="fade-up" className="wrapper">
       <span>
       <h3>CSS</h3>
-      <p>80%</p>
+      <p>95%</p>
       </span>
          <div className="range-1">
           <div className="inner-2"></div>
@@ -36,7 +36,7 @@ const About = () => {
         <div data-aos="fade-down"  className="wrapper">
       <span>
       <h3>JAVASCRIPT</h3>
-      <p>75%</p>
+      <p>90%</p>
       </span>
          <div className="range-1">
           <div className="inner-3"></div>
@@ -45,7 +45,7 @@ const About = () => {
         <div data-aos="fade-up" className="wrapper">
       <span>
       <h3>REACT</h3>
-      <p>85%</p>
+      <p>90%</p>
       </span>
          <div className="range-1">
           <div className="inner-4"></div>
@@ -54,7 +54,7 @@ const About = () => {
         <div data-aos="fade-down" className="wrapper">
       <span>
       <h3>GITUP</h3>
-      <p>80%</p>
+      <p>95%</p>
       </span>
          <div className="range-1">
           <div className="inner-2"></div>
