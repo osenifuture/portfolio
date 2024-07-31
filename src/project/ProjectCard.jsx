@@ -43,21 +43,21 @@ const ProjectCard = () => {
   function getLink(id) {
     switch (id) {
       case "1":
-        return "https://agoaweb.vercel.app/";
+        return "https://www.smarttransexpress.com/";
       case "2":
-        return "https://yummytasty.vercel.app/";
+        return "https://agoaweb.vercel.app/";
       case "3":
-        return "https://olymaxsolution.vercel.app/";
+        return "https://yummytasty.vercel.app/";
       case "4":
-        return "https://cinexflix.vercel.app/";
+        return "https://olymaxsolution.vercel.app/";
       case "5":
+        return "https://cinexflix.vercel.app/";
+      case "6":
         return "https://deluxury.vercel.app/";
-        case "6":
+        case "7":
           return "https://hejitechweb.vercel.app/";
-          case "7":
+          case "8":
             return "https://todoapp-chi-one.vercel.app/";
-          // case "8":
-          //   return "https://tabitslogistics.onrender.com/";
       default:
         return "/";
     }
