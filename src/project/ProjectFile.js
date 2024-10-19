@@ -41,6 +41,10 @@ const ProjectFile = [
     imageUrl: 'https://i.ibb.co/YP2MTqd/Screenshot-2023-11-17-at-7-10-29-AM.png',
         title: 'DEMO'
     },
+{   id: '9',
+    imageUrl: 'https://res.cloudinary.com/dmk6amr96/image/upload/t_Banner 16:9/v1729322924/1729322625768_va9jqt.jpg',
+        title: 'DEMO'
+    },
 
    
 

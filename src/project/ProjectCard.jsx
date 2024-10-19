@@ -58,6 +58,8 @@ const ProjectCard = () => {
           return "https://hejitechweb.vercel.app/";
           case "8":
             return "https://todoapp-chi-one.vercel.app/";
+          case "9":
+            return "https://zustand-lac-six.vercel.app/product";
       default:
         return "/";
     }
